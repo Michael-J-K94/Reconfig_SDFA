@@ -1,0 +1,11 @@
+v2lvs -c /_ -v par.v -o par.m.cdl -i \
+-s /home/mmsjw/2018TapeOut/netlist/ts6n65lplla200x70m2s_210a.spi \
+-s /home/mmsjw/2018TapeOut/netlist/tcbn65lp_200a.spi \
+-s /home/mmsjw/2018TapeOut/netlist/tpdn65lpnv2od3_3.spi \
+-s /mms/kits/TSMC_mosis/CRN65LP/Calibre/lvs/source.added \
+-s /home/mmsjw/2018TapeOut/LDO/LDO_SGH/LDO_SGH_netlist \
+-lsr /home/mmsjw/2018TapeOut/LDO/LDO_SGH/LDO_SGH_netlist \
+-l /home/mmsjw/2018TapeOut/netlist/ts6n65lplla200x70m2s_210a_tt1p2v25c.v \
+-lsr /home/mmsjw/2018TapeOut/netlist/tcbn65lp_200a.spi \
+-lsr /home/mmsjw/2018TapeOut/netlist/tpdn65lpnv2od3_3.spi \
+-lsr /mms/kits/TSMC_mosis/CRN65LP/Calibre/lvs/source.added

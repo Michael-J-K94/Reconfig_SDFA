@@ -1,0 +1,201 @@
+
+Inner_Bond_Name         PAD60N
+Outer_Bond_Name         PAD60G
+Linear_Bond_Name        PAD60G
+
+####                    Stagger/Linear
+North_Pad_Use           Linear 
+South_Pad_Use           Linear 
+West_Pad_Use            Linear
+East_Pad_Use            Linear
+
+##### This session is used only for stagger pad 
+#####                   Inner/Outer
+South_Left_Start        Inner
+North_Left_Start        Outer
+West_Down_Start         Outer
+East_Down_Start         Inner
+
+
+
+##############################################
+# Do not modify the lines below
+##############################################
+
+#bonding cell informatiion
+# ovlap : overlap of bond & pad
+# cntr_offset: x coordinate of center point
+#bond_name          length      lin_pitch   stg_pitch  ovlap    cntr_offset widch
+PAD60N             73900       60000       30000      0    15000       30000
+PAD60G            169900       60000       30000      0    15000       30000
+
+Stagger_IOPad_Length           190000
+Linear_IOPad_Length            190000
+
+# Secend_Pin_location is needed when adding bonding pads for a double width 
+# IO Pad,It defines where to place the secned bonding Pad. This value is 
+# usually the half of the width of a double width IO Pad.
+#
+#     First   Second
+#     pin     pin
+#      !       !
+#      |--===--+--===--|
+#      |  pin1    pin2 |
+#      |               |
+#      |               |
+#      |               |
+
+# pin location descrption
+# offset:  offset of IO pad and bound pad
+# nil:     pin not exist
+# skip:    skip current location, do not place a bound at current location
+#
+# compared to the "nil" setting, the "skip" setting effect the order stagger pad
+# example1: the second pin is defined as second_pin_offset
+#       P   P
+#     P l P l P 
+#    +=+=-=+=+=+
+#    | |   | | |
+# example2: the second pin is defined nil
+#       P     P
+#     P l   P l
+#    +=+=--+=+=+
+#    | |   | | |
+# example3: the second pin is defined as skip
+#       P   P
+#     P l   l P 
+#    +=+=-=+=+=+
+#    | |   | | |
+
+
+#Name       Slot        X           X           Width
+#                   coordiante  coordinate
+#                       of          of
+#                   First_Pin   Second_Pin
+#                    center        center
+#
+#           1/2     offset/nil/skip 
+
+PCI33DGZ     1       15000       nil         30000
+PCI33SDGZ    1       15000       nil         30000
+PCI66DGZ     1       15000       nil         30000
+PCI66SDGZ    1       15000       nil         30000
+PDB02DGZ     1       15000       nil         30000
+PDB02SDGZ    1       15000       nil         30000
+PDB04DGZ     1       15000       nil         30000
+PDB04SDGZ    1       15000       nil         30000
+PDB08DGZ     1       15000       nil         30000
+PDB08SDGZ    1       15000       nil         30000
+PDB12DGZ     1       15000       nil         30000
+PDB12SDGZ    1       15000       nil         30000
+PDB16DGZ     1       15000       nil         30000
+PDB16SDGZ    1       15000       nil         30000
+PDB24DGZ     1       15000       nil         30000
+PDB24SDGZ    1       15000       nil         30000
+PDD02DGZ     1       15000       nil         30000
+PDD02SDGZ    1       15000       nil         30000
+PDD04DGZ     1       15000       nil         30000
+PDD04SDGZ    1       15000       nil         30000
+PDD08DGZ     1       15000       nil         30000
+PDD08SDGZ    1       15000       nil         30000
+PDD12DGZ     1       15000       nil         30000
+PDD12SDGZ    1       15000       nil         30000
+PDD16DGZ     1       15000       nil         30000
+PDD16SDGZ    1       15000       nil         30000
+PDD24DGZ     1       15000       nil         30000
+PDD24SDGZ    1       15000       nil         30000
+PDDDGZ       1       15000       nil         30000
+PDDSDGZ      1       15000       nil         30000
+PDDW02DGZ    1       15000       nil         30000
+PDDW04DGZ    1       15000       nil         30000
+PDDW08DGZ    1       15000       nil         30000
+PDDW12DGZ    1       15000       nil         30000
+PDDW16DGZ    1       15000       nil         30000
+PDDW24DGZ    1       15000       nil         30000
+PDDWDGZ      1       15000       nil         30000
+PDIDGZ       1       15000       nil         30000
+PDISDGZ      1       15000       nil         30000
+PDO02CDG     1       15000       nil         30000
+PDO04CDG     1       15000       nil         30000
+PDO08CDG     1       15000       nil         30000
+PDO12CDG     1       15000       nil         30000
+PDO16CDG     1       15000       nil         30000
+PDO24CDG     1       15000       nil         30000
+PDT02DGZ     1       15000       nil         30000
+PDT04DGZ     1       15000       nil         30000
+PDT08DGZ     1       15000       nil         30000
+PDT12DGZ     1       15000       nil         30000
+PDT16DGZ     1       15000       nil         30000
+PDT24DGZ     1       15000       nil         30000
+PDU02DGZ     1       15000       nil         30000
+PDU02SDGZ    1       15000       nil         30000
+PDU04DGZ     1       15000       nil         30000
+PDU04SDGZ    1       15000       nil         30000
+PDU08DGZ     1       15000       nil         30000
+PDU08SDGZ    1       15000       nil         30000
+PDU12DGZ     1       15000       nil         30000
+PDU12SDGZ    1       15000       nil         30000
+PDU16DGZ     1       15000       nil         30000
+PDU16SDGZ    1       15000       nil         30000
+PDU24DGZ     1       15000       nil         30000
+PDU24SDGZ    1       15000       nil         30000
+PDUDGZ       1       15000       nil         30000
+PDUSDGZ      1       15000       nil         30000
+PDUW02DGZ    1       15000       nil         30000
+PDUW04DGZ    1       15000       nil         30000
+PDUW08DGZ    1       15000       nil         30000
+PDUW12DGZ    1       15000       nil         30000
+PDUW16DGZ    1       15000       nil         30000
+PDUW24DGZ    1       15000       nil         30000
+PDUWDGZ      1       15000       nil         30000
+PRB08DGZ     1       15000       nil         30000
+PRB08SDGZ    1       15000       nil         30000
+PRB12DGZ     1       15000       nil         30000
+PRB12SDGZ    1       15000       nil         30000
+PRB16DGZ     1       15000       nil         30000
+PRB16SDGZ    1       15000       nil         30000
+PRB24DGZ     1       15000       nil         30000
+PRB24SDGZ    1       15000       nil         30000
+PRD08DGZ     1       15000       nil         30000
+PRD08SDGZ    1       15000       nil         30000
+PRD12DGZ     1       15000       nil         30000
+PRD12SDGZ    1       15000       nil         30000
+PRD16DGZ     1       15000       nil         30000
+PRD16SDGZ    1       15000       nil         30000
+PRD24DGZ     1       15000       nil         30000
+PRD24SDGZ    1       15000       nil         30000
+PRDW08DGZ    1       15000       nil         30000
+PRDW12DGZ    1       15000       nil         30000
+PRDW16DGZ    1       15000       nil         30000
+PRDW24DGZ    1       15000       nil         30000
+PRO08CDG     1       15000       nil         30000
+PRO12CDG     1       15000       nil         30000
+PRO16CDG     1       15000       nil         30000
+PRO24CDG     1       15000       nil         30000
+PRT08DGZ     1       15000       nil         30000
+PRT12DGZ     1       15000       nil         30000
+PRT16DGZ     1       15000       nil         30000
+PRT24DGZ     1       15000       nil         30000
+PRU08DGZ     1       15000       nil         30000
+PRU08SDGZ    1       15000       nil         30000
+PRU12DGZ     1       15000       nil         30000
+PRU12SDGZ    1       15000       nil         30000
+PRU16DGZ     1       15000       nil         30000
+PRU16SDGZ    1       15000       nil         30000
+PRU24DGZ     1       15000       nil         30000
+PRU24SDGZ    1       15000       nil         30000
+PRUW08DGZ    1       15000       nil         30000
+PRUW12DGZ    1       15000       nil         30000
+PRUW16DGZ    1       15000       nil         30000
+PRUW24DGZ    1       15000       nil         30000
+PVDD1ANA     1       15000       nil         30000
+PVDD1DGZ     1       15000       nil         30000
+PVDD2ANA     1       15000       nil         30000
+PVDD2DGZ     1       15000       nil         30000
+PVDD2POC     1       15000       nil         30000
+PVSS1ANA     1       15000       nil         30000
+PVSS1DGZ     1       15000       nil         30000
+PVSS2ANA     1       15000       nil         30000
+PVSS2DGZ     1       15000       nil         30000
+PVSS3DGZ     1       15000       nil         30000
+    

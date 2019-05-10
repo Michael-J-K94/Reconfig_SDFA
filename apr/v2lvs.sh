@@ -1,0 +1,32 @@
+v2lvs -c /_ -v par.v -o par.cdl \
+-addpin VDD -addpin VSS \
+-s /u/tsmc/CLN45GS/TSMCHOME/digital/Back_End/spice/tcbn45gsbwp12t_120c/tcbn45gsbwp12t_120c.spi \
+-s /homes/djeon/tapeout/lib/tpfn45gsgv2od3_3.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa1024x10m4s_120a/SPICE/ts6n45gsa1024x10m4s_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa304x12m4s_120a/SPICE/ts6n45gsa304x12m4s_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa896x3m4s_120a/SPICE/ts6n45gsa896x3m4s_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa1024x2m4s_120a/SPICE/ts6n45gsa1024x2m4s_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa4096x10m16s_120a/SPICE/ts6n45gsa4096x10m16s_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa896x48m4s_120a/SPICE/ts6n45gsa896x48m4s_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa1024x38m4s_120a/SPICE/ts6n45gsa1024x38m4s_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa48x42m4f_120a/SPICE/ts6n45gsa48x42m4f_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa976x36m4s_120a/SPICE/ts6n45gsa976x36m4s_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa1024x48m4s_120a/SPICE/ts6n45gsa1024x48m4s_120a.spi \
+-s /homes/djeon/tapeout/compiled_rf/ts6n45gsa896x14m4s_120a/SPICE/ts6n45gsa896x14m4s_120a.spi \
+-s /homes/djeon/tapeout/lib/SLC0P5TO1P1INV_WELLTAP.sp \
+-s /homes/djeon/tapeout/icfb/Calibre/lvs/source.added \
+-lsr /u/tsmc/CLN45GS/TSMCHOME/digital/Back_End/spice/tcbn45gsbwp12t_120c/tcbn45gsbwp12t_120c.spi \
+-lsr /homes/djeon/tapeout/lib/tpfn45gsgv2od3_3.spi \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa1024x10m4s_120a/VERILOG/ts6n45gsa1024x10m4s_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa48x42m4f_120a/VERILOG/ts6n45gsa48x42m4f_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa1024x2m4s_120a/VERILOG/ts6n45gsa1024x2m4s_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa896x14m4s_120a/VERILOG/ts6n45gsa896x14m4s_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa1024x38m4s_120a/VERILOG/ts6n45gsa1024x38m4s_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa896x3m4s_120a/VERILOG/ts6n45gsa896x3m4s_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa1024x48m4s_120a/VERILOG/ts6n45gsa1024x48m4s_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa896x48m4s_120a/VERILOG/ts6n45gsa896x48m4s_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa304x12m4s_120a/VERILOG/ts6n45gsa304x12m4s_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa976x36m4s_120a/VERILOG/ts6n45gsa976x36m4s_120a_tt0p9v25c.v \
+-l /homes/djeon/tapeout/compiled_rf/ts6n45gsa4096x10m16s_120a/VERILOG/ts6n45gsa4096x10m16s_120a_tt0p9v25c.v \
+-lsr /homes/djeon/tapeout/lib/SLC0P5TO1P1INV_WELLTAP.sp \
+-lsr /homes/djeon/tapeout/icfb/Calibre/lvs/source.added
